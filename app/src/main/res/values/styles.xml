@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Button" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="DarkGreyButton" parent="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_dark</item>
+        <item name="android:textSize">@dimen/button_font_18</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginTop">14dp</item>
+    </style>
+
+
+    <style name="BlueButton" parent="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_blue</item>
+        <item name="android:textSize">@dimen/button_font_20</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+
+    <style name="BellText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">6sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <style name="TextStylePoppins" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="TextScaleSmall" parent="TextStylePoppins">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="TextMonthDate" parent="TextStylePoppins">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.1</item>
+    </style>
+
+    <style name="TextMoney" parent="TextStylePoppins">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="TextYear" parent="TextStylePoppins">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

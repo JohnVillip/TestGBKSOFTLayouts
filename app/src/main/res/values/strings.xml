@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TestGBKSOFTLayouts</string>
+
+    <!--MainActivity-->
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+
+    <!--OneFragment-->
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <!--TwoFragment-->
+    <string name="dashboard">Dashboard</string>
+    <string name="target_users_2000_user">Target Users 2000 user</string>
+    <string name="less_1000_user">less 1000 user</string>
+    <string name="total_users_now">Total Users Now</string>
+    <string name="_1000_user">1000 User</string>
+    <string name="daily_sales_results">Daily Sales Results</string>
+    <string name="january_01_30">January 01 - 30</string>
+    <string name="januay_01">Januay 01</string>
+    <string name="januay_02">Januay 02</string>
+    <string name="januay_03">Januay 03</string>
+    <string name="januay_04">Januay 04</string>
+    <string name="januay_05">Januay 05</string>
+    <string name="januay_06">Januay 06</string>
+
+
+
+    <!--ThreeFragment-->
+    <string name="total_users">Total Users</string>
+    <string name="user">User</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the print ing and type setting industry. Lorem Ipsum has been the industry\'s.</string>
+    <string name="target_2000_users">Target 2000 Users</string>
+    <string name="less_1000_users">Less 1000 Users</string>
+    <string name="chart_users">Chart Users</string>
+    <string name="in_2012_2018">In 2012 - 2018</string>
+    <string name="type_chart">Type Chart</string>
+
+</resources>

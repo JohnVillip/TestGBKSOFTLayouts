@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="13dp">
+
+            <View
+                android:layout_width="23dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/smal_oval" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/poppins_bold"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.17"
+                android:text="@string/register"
+                android:textColor="@color/blueColor"
+                android:textSize="36sp" />
+        </FrameLayout>
+
+        <Button
+            style="@style/DarkGreyButton"
+            android:text="@string/name" />
+
+        <Button
+            style="@style/DarkGreyButton"
+            android:text="@string/email" />
+
+        <Button
+            style="@style/DarkGreyButton"
+            android:text="@string/username" />
+
+        <Button
+            style="@style/DarkGreyButton"
+            android:text="@string/password" />
+
+        <Button
+            style="@style/DarkGreyButton"
+            android:text="@string/confirm_password" />
+
+        <Button
+            style="@style/BlueButton"
+            android:text="@string/register" />
+    </LinearLayout>
+</FrameLayout>

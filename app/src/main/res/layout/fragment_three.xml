@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="41dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="15.5dp"
+            android:layout_gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_arrow_top"
+                android:layout_gravity="top"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_arrow_mid"
+                android:layout_gravity="center_vertical"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_arrow_bottom"
+                android:layout_gravity="bottom"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="9dp"
+            android:text="@string/total_users"
+            style="@style/TextStylePoppins"
+            android:textSize="19sp"
+            android:letterSpacing="0.1"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="21dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_bell" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_circle_turquoise" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    style="@style/BellText"/>
+            </FrameLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_profile_circle"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_profile_semicircle"
+                android:layout_gravity="bottom"/>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/big_rectangle_total_users">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="19dp"
+                android:text="@string/total_users_now"
+                style="@style/TextStylePoppins"
+                android:textSize="15sp"
+                android:letterSpacing="0.1"/>
+
+            <FrameLayout
+                android:layout_width="126dp"
+                android:layout_height="126dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginTop="55dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/circle_120" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:srcCompat="@drawable/semicircle_126" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="50%"
+                    style="@style/TextStylePoppins"
+                    android:textSize="20sp"
+                    android:letterSpacing="0.05"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="71dp"
+                    android:text="@string/user"
+                    style="@style/TextStylePoppins"
+                    android:textSize="10sp"
+                    android:letterSpacing="0.05"/>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="195dp"
+                android:text="@string/lorem_ipsum"
+                style="@style/TextStylePoppins"
+                android:textSize="10sp"
+                android:letterSpacing="0.05"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blue_circle_10"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="136dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blue_circle_10"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="158dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="135dp"
+                android:layout_marginStart="189dp"
+                android:text="@string/target_2000_users"
+                style="@style/TextStylePoppins"
+                android:textSize="9sp"
+                android:letterSpacing="0.05"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="157dp"
+                android:layout_marginStart="189dp"
+                android:text="@string/less_1000_users"
+                style="@style/TextStylePoppins"
+                android:textSize="9sp"
+                android:letterSpacing="0.05"/>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="317dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="46dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chart_users"
+            style="@style/TextStylePoppins"
+            android:textSize="14sp"
+            android:letterSpacing="0.05"
+            android:includeFontPadding="false"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="@string/in_2012_2018"
+            style="@style/TextStylePoppins"
+            android:textSize="10sp"
+            android:letterSpacing="0.1"
+            android:includeFontPadding="false"/>
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="end"
+            android:background="@drawable/rectangle_80_20">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/type_chart"
+                style="@style/TextStylePoppins"
+                android:textSize="7sp"
+                android:letterSpacing="0.1"/>
+            <View
+                android:layout_width="5dp"
+                android:layout_height="4dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="11dp"
+                android:background="@drawable/small_arrow_white"/>
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="182dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_84" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2012" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_31" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2013" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_158" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2014" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_67" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2015" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_108" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2016" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_60" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2017" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="25dp"
+                android:layout_height="182dp"
+                android:layout_weight="1">
+                <FrameLayout
+                    android:layout_width="9dp"
+                    android:layout_height="161dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/scale_big_base">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        app:srcCompat="@drawable/scale_big_85" />
+
+                </FrameLayout>
+                <TextView
+                    style="@style/TextYear"
+                    android:text="2018" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="87dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="90dp"
+            android:background="@drawable/hint_white">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="35dp"
+                android:text="99 user"
+                android:textSize="6sp"
+                android:textColor="@color/darkGreyColor"/>
+        </FrameLayout>
+
+    </FrameLayout>
+</LinearLayout>
+
+
+
